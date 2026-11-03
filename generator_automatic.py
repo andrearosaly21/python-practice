@@ -171,6 +171,60 @@ else:
 
 ******************************************************************************************SECTION 5**********************************************************************************************************
 
+ Build a Travel Weather Planner:
+
+distance_mi = 1
+is_raining = True
+has_bike = True
+has_car = False
+has_ride_share_app = True
+if not distance_mi:
+    print(False)
+elif distance_mi <= 1:
+    if not is_raining:
+        print(True)
+    else:
+        print(False)
+elif distance_mi > 1 and distance_mi <= 6:
+    if has_bike and not is_raining:
+        print(True)
+    else:
+        print(False)
+else:        
+    if distance_mi > 6 and (has_car or has_ride_share_app):
+        print(True)
+    else:
+        print(False)
+
+***********************************************************************************************SECTION 6***************************************************************************************************
+MIO: CHATGPT EXERCISE FOR ME
+
+  def saludar_centro(nombre_centro, idioma):                                                                                                                                                                                                           
+    print(nombre_centro  + idioma)                                                                                                
+    if idioma == "quechua":                                                                                    
+      print("allianlla kachun", nombre_centro)                                                     
+    elif idioma == "español":                                                                                            
+      print("Bienvenidos al centro", nombre_centro)
+    else:
+      print("Centro médica:", nombre_centro)
   
+def calcular_medicamento(pastillas_por_dia, dias):                                                               
+        Total = (pastillas_por_dia, dias)                                        
+        print('Total') # None                                                                                             
+def calcular_medicamentos(pastillas_por_dias, dias)                           
+        return(pastillas_por_dias, dias)                                                                                
+        print('Total')
+  
+def obtener_alerta_salud(codigo_alerta):                                       
+    if codigo_alerta ==1:                                                                 
+      return( "Fiebre alta", "Nina unquy")                                                                  
+    elif codigo_alerta ==2:                                                                                             
+      return("Falta aire", "Samay siriy")                                                                        
+    else:                                                                                                                        
+      return("Consulta general", "Mana yachasqa unquy")   
+
+************************************************************************SECTION 7****************************************************
+BUILD A KITCHEN INVENTORY TRACKER
+
 
 
